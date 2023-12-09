@@ -2,10 +2,16 @@ import styled, { createGlobalStyle } from 'styled-components'
 
 const EstiloGlobal = createGlobalStyle`
   * {
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     family-font: 'Roboto', sans-serif;
   }
 `
+
+export const Container = styled.div`
+  display: grid;
+  grid-template-columns: 224px auto;
+`
+
 export default EstiloGlobal
